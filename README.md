@@ -184,3 +184,7 @@ suffix:.kodik-storage.com
 suffix:.kodik-cdn.com
 
 suffix:.solodcdn.com
+
+suffix:.ru
+
+suffix:.рф
