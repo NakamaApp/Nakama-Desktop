@@ -15,15 +15,15 @@
 
 | Система | Файл |
 | --- | --- |
-| Windows 10 / 11 (64-bit) | `Nakama-<версия>.msi` |
-| Ubuntu, Debian, Linux Mint, Pop!_OS | `nakama_<версия>-1_amd64.deb` |
-| Fedora, openSUSE | `nakama-<версия>-1.x86_64.rpm` |
+| Windows 10 / 11 (64-bit) | `Nakama.msi` |
+| Ubuntu, Debian, Linux Mint, Pop!_OS | `nakama-1_amd64.deb` |
+| Fedora, openSUSE | `nakama-1.x86_64.rpm` |
 
 Нужен 64-битный компьютер (x86_64).
 
 ## Windows
 
-1. Запустите `Nakama-<версия>.msi` и следуйте подсказкам установщика.
+1. Запустите `Nakama.msi` и следуйте подсказкам установщика.
 2. Если Windows покажет «Windows защитила ваш компьютер», нажмите **Подробнее → Выполнить в любом случае**
    (у установщика нет платной цифровой подписи).
 3. Запускайте Nakama из меню «Пуск» или с ярлыка на рабочем столе.
@@ -42,7 +42,7 @@ GStreamer и системные библиотеки).
 ### Ubuntu / Debian / Linux Mint / Pop!_OS
 
 ```bash
-sudo apt install ./nakama_<версия>-1_amd64.deb
+sudo apt install ./nakama-1_amd64.deb
 ```
 
 Кодеки в этих системах полные из коробки — больше ничего делать не нужно.
@@ -50,7 +50,7 @@ sudo apt install ./nakama_<версия>-1_amd64.deb
 ### Fedora
 
 ```bash
-sudo dnf install ./nakama-<версия>-1.x86_64.rpm
+sudo dnf install ./nakama-1.x86_64.rpm
 ```
 
 **Обязательно для Fedora:** стандартные кодеки Fedora не умеют показывать большинство видео (будет звук
@@ -65,7 +65,7 @@ sudo dnf install vlc-plugins-freeworld
 ### openSUSE
 
 ```bash
-sudo zypper install ./nakama-<версия>-1.x86_64.rpm
+sudo zypper install ./nakama-1.x86_64.rpm
 ```
 
 Полные кодеки — из репозитория Packman (для Leap замените `openSUSE_Tumbleweed` на свою версию,
